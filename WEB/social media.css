@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main{
+   background: url(to3.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: repeat;
+    
+
+}
+.logo a{
+    margin-left: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    color: #faca2b;
+    float: left;
+    padding-top: 7px;
+}
+
+.logo a:hover{
+    color: white;
+}
+.names{
+    color: #faca2b;
+    float: right;
+    padding-top: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+}
+.navbar{
+    background-color: #c34242;
+    width: 1535px;
+    height: 50px;
+    background-size: cover;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    float: center;
+    
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    margin-left: 500px;
+}
+
+ul li {
+ margin-top: 20px;
+ margin-left: 20px;
+}
+
+ul li a {
+    color: white;
+    font-weight: bold;
+    transition: .5s ease-in-out;
+}
+
+ul li a:hover{
+    color: #faca2b;
+    opacity: 0.7;
+}
+ul li a:hover, a.active{
+    color: #faca2b;
+    border-radius: 3px;
+    transition: 0.5s ease;
+}
+
+/*contents*/
+
+
+
+.content1 h1{
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 90px;
+    padding-top: 90px;
+    font-weight: bold;
+}
+
+.content1 .btn {
+    margin-left: 700px;
+    margin-top: 15px;
+    color: aliceblue;
+    background-color: #faca2b;
+    height: 20px;
+    width: 70px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.par{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    letter-spacing: 1.5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 10px;
+}
+
+.red{
+    color: #c34242;
+}
+
+.red:hover{
+    color: #faca2b;
+    text-transform: uppercase;
+    text-overflow: clip;
+}
+
+.btn a {
+    color: white;
+}
+.btn a:hover{
+    color: #c34242;
+    border-radius: 7px;
+    border: none;
+}
+

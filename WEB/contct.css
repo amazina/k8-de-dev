@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.main{
+   background: url(to3.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: repeat;
+    
+
+}
+.logo a{
+    margin-left: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    color: #faca2b;
+    float: left;
+    padding-top: 7px;
+}
+
+.logo a:hover{
+    color: white;
+}
+.names{
+    color: #faca2b;
+    float: right;
+    padding-top: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+}
+.navbar{
+    background-color: #c34242;
+    width: 1535px;
+    height: 50px;
+    background-size: cover;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    float: center;
+    
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    margin-left: 500px;
+}
+
+ul li {
+ margin-top: 20px;
+ margin-left: 20px;
+}
+
+ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+ul li a:hover{
+    color: #faca2b;
+    text-transform: uppercase;
+}
+
+/*contents*/
+
+
+
+.content1 h1{
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 90px;
+    padding-top: 90px;
+    font-weight: bold;
+}
+
+.content1 .btn {
+    margin-left: 700px;
+    margin-top: 15px;
+    color: aliceblue;
+    background-color: #faca2b;
+    height: 20px;
+    width: 70px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.par{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    letter-spacing: 1.5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 10px;
+}
+
+.red{
+    color: #c34242;
+}
+
+.red:hover{
+    color: #faca2b;
+}
+
+.btn a {
+    color: white;
+}
+.btn a:hover{
+    color: #faca2b;
+    background-color: #c34242;
+    border-radius: 7px;
+    border: none;
+}
+
+.image1{
+    width: 80%;
+    height: 80%;
+    max-width: 60%;
+    max-height: 0%;
+    
+}
+
+.image2{
+    width: 100%;
+    height: 100%;
+    max-width: 80%;
+    max-height: 80%;
+    margin-left: 900px;
+}
+
+
+/*contact*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    height: 100vh;
+    background: url(to3.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container form{
+    width: 670px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    flex-wrap: wrap;
+}
+
+.container form h1{
+    color: #c34242;
+    font-weight: 500;
+    margin-top: 20px;
+    width: 500px;
+    text-align: center;
+}
+
+.container form input{
+    width: 290px;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background: none;
+    border-bottom: 2px solid #faca2b;
+}
+
+.container input::placeholder{
+    color: #ffffff;
+}
+
+.container form #lastname,
+.container form #mobile{
+    margin-left: 20px;
+}
+
+.container form h4{
+    color: #ffffff;
+    font-weight: bold;
+    width: 600px;
+    margin-top: 20px;  
+}
+
+.container form textarea{
+    background: none;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    color: #ffffff;
+    font-weight: 200;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    min-width: 600px;
+    max-width: 600px;
+    min-height: 80px;
+    max-height: 80px;
+}
+
+textarea::-webkit-scrollbar{
+    width: 1em;
+}
+
+textarea::-webkit-scrollbar-thumb{
+    background: #bb971d;
+}
+
+.container form #button{
+    border: none;
+    background: #faca2b;
+    color: #c34242;
+    transition: .5s ease-in-out;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 600;
+    width: 100px;
+    padding: 0;
+    margin-right: 500px;
+    margin-bottom: 30px;
+}
+
+
+.container form #button:hover{
+    background: #c34242;
+    color: #faca2b;
+    cursor: pointer;
+}
